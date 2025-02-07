@@ -1,24 +1,24 @@
 ---
-import { FaPills, FaClinicMedical, FaPager, FaCalendarAlt, FaClipboardCheck } from 'react-icons/fa';
+import { FaCrown, FaMagic, FaCalendarAlt, FaDollarSign, FaUserGraduate } from 'react-icons/fa';
 
 const features = [
-  { icon: FaPills, title: 'Medication Adherence' },
-  { icon: FaClinicMedical, title: 'Checking clinical values (A1c, BP)' },
-  { icon: FaPager, title: 'Using medical devices' },
-  { icon: FaCalendarAlt, title: 'Attending provider appointments' },
-  { icon: FaClipboardCheck, title: 'Getting screenings and labs' },
+  { icon: FaCrown, title: 'Elite Tutors' },
+  { icon: FaMagic, title: 'Proven Results' },
+  { icon: FaCalendarAlt, title: 'Flexible Scheduling' },
+  { icon: FaDollarSign, title: 'Affordable Rates' },
+  { icon: FaUserGraduate, title: 'Personalized Plans' },
 ];
 
 ---
 
-<section class="bg-blue-700 py-20 text-white text-center">
+<section class="bg-blue-950 py-20 text-white text-center" id="features">
   <div class="container mx-auto px-4">
-    <h2 class="text-4xl font-serif font-bold mb-4">Daily member engagement</h2>
+    <h2 class="text-4xl font-serif font-bold mb-4">Why We Stand Out: Your Best Choice!</h2>
     <p class="text-xl mb-12 max-w-2xl mx-auto">
-      Your Company reaches and motivates individuals struggling to adhere to care plans, rewarding them for healthy behaviors.
+      Find out why we're the top pick, offering incredible value and exceptional service that goes above and beyond.
     </p>
 
-    <div class="bg-white text-blue-700 rounded-lg shadow-lg p-8">
+    <div class="bg-white text-blue-950 rounded-lg shadow-lg p-8">
       <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
         {features.map((feature) => (
           <div class="flex flex-col items-center">
@@ -30,11 +30,11 @@ const features = [
     </div>
 
     <p class="text-xl mt-12 mb-8 max-w-2xl mx-auto">
-      Our science-backed platform is built on the principles of behavioral economics to work for the hardest-to-reach populations.
+      Join us and experience the difference with a commitment to excellence that ensures your happiness every step of the way!
     </p>
 
-    <a href="/platform" class="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300">
-      Explore the Your Company platform
+    <a href="#booking" class="inline-block bg-white text-blue-950 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300">
+      Book Your First Session Now!
     </a>
   </div>
 </section>
